@@ -1,0 +1,35 @@
+#container{
+    width: 600px; ;
+    height: 600px;
+    background-color: aqua;
+    display: flex;
+    border:3px solid black;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+#container div{
+    
+    width: 200px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 40px;
+    border:1px solid black;
+   
+}
+
+.caja1{
+    background-color: red;
+}
+
+.caja2{
+    background-color: green;
+}
+
+.caja3{
+    background-color: blue;
+}
